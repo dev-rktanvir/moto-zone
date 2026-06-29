@@ -26,6 +26,7 @@
         --color-primary: #E76F51;
         --color-heading: #000000;
         --color-text:#6C6C6C;
+        --color-background: rgba(231, 111, 81, 0.1);
 
         --font-poppins: "Poppins", sans-serif;
       }
@@ -36,7 +37,7 @@
     <!-- Header -->
     <header>
         <!-- Nav bar -->
-        <nav class="container mx-auto px-4 py-6 lg:py-12 flex items-center">
+        <nav class="container mx-auto px-4 py-6 xl:py-12 flex items-center">
             <!-- Logo -->
             <a href="#" class="flex-1 text-3xl font-bold text-heading">Moto Zone</a>
 
@@ -51,7 +52,8 @@
                 </ul>
 
                 <!-- Button -->
-                <a href="#" class="px-14 py-4 rounded-md font-bold text-white text-lg bg-primary hover:bg-primary/95">Login</a>
+                <a href="#"
+                    class="px-10 py-4 rounded-md font-bold text-white text-lg bg-primary hover:bg-primary/95">Login</a>
             </div>
 
             <!-- Mobile Menu -->
@@ -63,6 +65,144 @@
 
             </div>
         </nav>
+
+        <!-- Hero section -->
+        <section class="container mx-auto rounded-lg bg-background px-4 py-10 lg:px-24 lg:py-20">
+            <div class="carousel w-full">
+
+                <!-- ===================== Slide 1 ===================== -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="flex w-full flex-col-reverse items-center justify-evenly gap-10 lg:flex-row">
+
+                        <!-- Content -->
+                        <div class="max-w-md space-y-6 text-center lg:text-left">
+                            <h2 class="text-4xl font-bold leading-tight text-heading lg:text-6xl">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+
+                            <p class="text-base leading-7 text-gray-600">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+
+                            <a href="#"
+                                class="inline-block rounded-md bg-primary px-8 py-4 text-lg font-semibold text-white transition duration-300 hover:bg-primary/90">
+                                Purchase
+                            </a>
+                        </div>
+
+                        <!-- Image -->
+                        <div class="flex justify-center">
+                            <img src="./images/slider/bike1.png" alt="Yamaha R15 V4 Bike" class="w-full max-w-lg">
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- ===================== Slide 2 ===================== -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex w-full flex-col-reverse items-center justify-evenly gap-10 lg:flex-row">
+
+                        <div class="max-w-md space-y-6 text-center lg:text-left">
+                            <h2 class="text-4xl font-bold leading-tight text-heading lg:text-6xl">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+
+                            <p class="text-base leading-7 text-gray-600">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+
+                            <a href="#"
+                                class="inline-block rounded-md bg-primary px-8 py-4 text-lg font-semibold text-white transition duration-300 hover:bg-primary/90">
+                                Purchase
+                            </a>
+                        </div>
+
+                        <div class="flex justify-center">
+                            <img src="./images/slider/bike2.png" alt="Yamaha R15 V4 Bike" class="w-full max-w-lg">
+                        </div>
+
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- ===================== Slide 3 ===================== -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex w-full flex-col-reverse items-center justify-evenly gap-10 lg:flex-row">
+
+                        <div class="max-w-md space-y-6 text-center lg:text-left">
+                            <h2 class="text-4xl font-bold leading-tight text-heading lg:text-6xl">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+
+                            <p class="text-base leading-7 text-gray-600">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+
+                            <a href="#"
+                                class="inline-block rounded-md bg-primary px-8 py-4 text-lg font-semibold text-white transition duration-300 hover:bg-primary/90">
+                                Purchase
+                            </a>
+                        </div>
+
+                        <div class="flex justify-center">
+                            <img src="./images/slider/bike3.png" alt="Yamaha R15 V4 Bike" class="w-full max-w-lg">
+                        </div>
+
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- ===================== Slide 4 ===================== -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex w-full flex-col-reverse items-center justify-evenly gap-10 lg:flex-row">
+
+                        <div class="max-w-md space-y-6 text-center lg:text-left">
+                            <h2 class="text-4xl font-bold leading-tight text-heading lg:text-6xl">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+
+                            <p class="text-base leading-7 text-gray-600">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+
+                            <a href="#"
+                                class="inline-block rounded-md bg-primary px-8 py-4 text-lg font-semibold text-white transition duration-300 hover:bg-primary/90">
+                                Purchase
+                            </a>
+                        </div>
+
+                        <div class="flex justify-center">
+                            <img src="./images/slider/bike4.png" alt="Yamaha R15 V4 Bike" class="w-full max-w-lg">
+                        </div>
+
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </header>
 
